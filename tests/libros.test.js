@@ -69,7 +69,8 @@ describe('API REST del catalogo de libros', () => {
       expect(res.status).toBe(200);
       expect(res.body.estado).toBe('ok');
       expect(res.body.servicio).toBe('librosapi');
-      expect(res.body.version).toBe('1.0.0');
+      expect(res.body.version).toBe('1.1.0');
+      expect(res.body.mensaje).toBe('Catalogo de libros operativo');
       expect(res.body.timestamp).toBeDefined();
     });
   });
