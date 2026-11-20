@@ -1,0 +1,21 @@
+{
+  "name": "librosapi",
+  "version": "1.0.0",
+  "description": "API REST para el catalogo de libros con Express, MySQL en RDS y despliegue CI/CD",
+  "main": "src/server.js",
+  "author": "Said Lira",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest --verbose"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql2": "^3.12.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
