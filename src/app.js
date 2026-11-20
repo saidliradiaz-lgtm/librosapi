@@ -20,6 +20,7 @@ function crearApp(repositorio) {
       estado: 'ok',
       servicio: pkg.name,
       version: pkg.version,
+      mensaje: 'Catalogo de libros operativo',
       timestamp: new Date().toISOString()
     });
   });

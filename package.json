@@ -1,6 +1,6 @@
 {
   "name": "librosapi",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "API REST para el catalogo de libros con Express, MySQL en RDS y despliegue CI/CD",
   "main": "src/server.js",
   "author": "Said Lira",
